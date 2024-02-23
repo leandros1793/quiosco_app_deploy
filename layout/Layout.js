@@ -30,10 +30,10 @@ export default function Layout({ children, pagina }) {
         <meta name="description" content="Quiosco Cafeteria" />
       </Head> 
       <div className="md:flex">
-        <aside className="md:w-3/12 xl:w-1/4 2xl:1/5 ">
+        <aside className="md:w-2/12 xl:w-1/4 2xl:1/5 ">
           <SideBar />
         </aside>
-        <main className="md : w-9/12 xl:w-3/4 2xl:4/5 h-screen overflow-y-scroll ">
+        <main className="md : w-10/12 xl:w-3/4 2xl:4/5 h-screen overflow-y-scroll ">
           <div className="p-10 ">
             <Pasos/>
             
